@@ -62,6 +62,8 @@ nav h1 {
     font-family: 'Delius Swash Caps', cursive;
     margin-top: 55px;
     margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-style: solid;
 }
 .row {
     display: flex;
@@ -69,7 +71,7 @@ nav h1 {
 
 }
 .the-options {
-    background-color: #fff3f3;
+    background-color: #ffddfb;
     margin: 2em;
     padding: 10px 12px;
     flex-basis: 30%;
@@ -88,5 +90,73 @@ nav h1 {
     font-family: 'Poor Story', cursive;
 }
 .the-options:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    transform: scale(1.2);
+}
+.website-packages {
+    background-color: black;
+}
+.packages {
+    background-color: #ffffff;
+    margin: 2em;
+    padding: 10px 12px;
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.packages h2 {
+    text-align: center;
+    font-family: 'Delius Swash Caps', cursive;
+    color: rgb(0, 0, 0);
+}
+.packages p {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    color: rgb(0, 0, 0);
+}
+.packages:hover {
+    box-shadow: 0 0 30px 0px rgba(255, 255, 255, 0.7);
+}
+.pack-row {
+    display: flex;
+    justify-content: space-between;
+}
+.website-packages h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Delius Swash Caps', cursive;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: white;
+    padding-top: 40px;
+    text-decoration: underline;
+}
+.features-benefits h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Delius Swash Caps', cursive;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+.benefits {
+    background-color: #ffd5d5;
+    margin: 2em;
+    padding: 10px 12px;
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.benefits h2 {
+    text-align: center;
+    font-family: 'Delius Swash Caps', cursive;
+}
+.benefits p {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+}
+.benefits:hover {
+    transform: scale(1.2);
 }
