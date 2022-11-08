@@ -145,3 +145,199 @@ nav h1 {
 .why-us {
     margin-top: 30px;
 }
+.request-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 75px;
+}
+
+.request-text img {
+    width: 600px;
+    align-items: center;
+}
+.request-text p {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: rgb(153, 122, 238);
+}
+.request-text h2 {
+    text-align: center;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 40px;
+    color: rgb(34, 25, 121);
+}
+.rform-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.opt-form {
+    margin: 1em;
+}
+input[type=text], select, textarea, input[type=tel] {
+    width: 100%;
+    padding: 6px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+fieldset {
+    border-radius: 10px;
+    width: 400px;
+}
+.rform {
+    background-color: rgb(60, 60, 117);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+label {
+    color: white;
+    font-family: 'Delius Swash Caps', cursive;
+}
+.form-legend {
+    color: white;
+    font-family: 'Delius Swash Caps', cursive;
+    padding: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+button {
+    width: 100%;
+    border: white 2px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poor Story', cursive;
+    font-size: 24px;
+    transition: 2s;
+}
+button:hover {
+    background-color: #7ba9ff;
+}
+.price-package {
+    background-color: #ffffff;
+    margin: 2em;
+    padding: 10px 12px;
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    transition: 1s;
+    vertical-align: auto;
+}
+.price-row {
+    display: flex;
+    justify-content: space-between;
+}
+.prices {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.prices h1 {
+    font-size: 50px;
+    font-family: 'Delius Swash Caps', cursive;
+    text-align: center;
+    text-decoration: underline;
+    color: #160b46;
+}
+legend {
+    font-size: 45px;
+    font-family: 'Delius Swash Caps', cursive;
+    margin-left: 35px;
+    padding: 7px;
+    color: #16007a;
+}
+.field-price {
+    border-radius: 10px;
+    border-color: #1e00a6;
+}
+.price-package h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Delius Swash Caps', cursive;
+    color: #1f0f63;
+}
+.price-package p {
+    font-size: 20px;
+    font-family: 'Poor Story', cursive;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: #1e00a6;
+}
+.price-package:hover {
+    transform: scale(1.2);
+}
+.extras-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.extras-content img {
+    width: 500px;
+    margin-left: 10px;
+}
+.extras-content p {
+    margin-left: 70px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: 'Poor Story', cursive;
+    color: #ff8c00;
+}
+.extras-content h2 {
+    font-size: 55px;
+    font-family: 'Delius Swash Caps', cursive;
+    margin-left: 50px;
+    color: #d48011;
+}
+.extras-content {
+    margin-bottom: 75px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+.foot-content {
+    display: inline-block;
+}
+.foot-content img {
+    position: relative;
+    width: 25px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 170px;
+
+}
+footer h1 {
+    font-family: 'Delius Swash Caps',cursive;
+    padding-left: 40px;
+    padding-top: 170px;
+    color: white;
+}
+.foot {
+    min-height: 10vh;
+    width: 100%;
+    background-color: rgb(52, 52, 52, 0.7);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 150px;
+}

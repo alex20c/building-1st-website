@@ -160,3 +160,34 @@ nav h1 {
 .benefits:hover {
     transform: scale(1.2);
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+.foot-content {
+    display: inline-block;
+}
+.foot-content img {
+    position: relative;
+    width: 25px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 170px;
+
+}
+footer h1 {
+    font-family: 'Delius Swash Caps',cursive;
+    padding-left: 40px;
+    padding-top: 170px;
+    color: white;
+}
+.foot {
+    min-height: 10vh;
+    width: 100%;
+    background-color: rgb(52, 52, 52, 0.7);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 150px;
+}
